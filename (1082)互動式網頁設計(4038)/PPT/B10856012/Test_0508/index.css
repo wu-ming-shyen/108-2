@@ -1,0 +1,45 @@
+table
+{
+    border: 1px dotted red;
+    text-align: center;
+    margin-right:auto;
+    margin-left:auto;
+}
+
+caption
+{
+    font-size: xx-large;
+    font-weight:bold;
+}
+
+td
+{
+    border: 1px dotted red;
+    text-align: center;
+    padding: 10px;
+}
+
+#StoreName
+{
+    color: blue;
+}
+
+#Discount
+{
+    color: red;
+}
+
+.Purple
+{
+    color: purple;
+}
+
+.Green
+{
+    color: green;
+}
+
+.Red
+{
+    color: red;
+}

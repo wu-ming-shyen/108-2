@@ -1,0 +1,13 @@
+var Data = prompt(`Please input Data.<br>`);
+var Interger = parseInt(Data);
+var Float = parseFloat(Data);
+var HEX = parseInt(Data,16);
+var DEC = parseInt(Data,10);
+var OCT = parseInt(Data,8);
+document.write(`<h1>Your input data is ${Data}</h1><br>`);
+document.write(`<h1>The type of your input data is ${typeof Data}.</h1><br>`);
+document.write(`<h1>Your input data show in interger is ${Interger}.</h1><br>`);
+document.write(`<h1>Your input data show in float is ${Float}.</h1><br>`);
+document.write(`<h1>Your input data show in Hexadecimal is ${HEX}.</h1><br>`);
+document.write(`<h1>Your input data show in Decimal is ${DEC}.</h1><br>`);
+document.write(`<h1>Your input data show in Octal is ${OCT}.</h1><br>`);

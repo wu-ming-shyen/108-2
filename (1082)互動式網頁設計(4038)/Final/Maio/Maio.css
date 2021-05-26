@@ -1,0 +1,133 @@
+*
+{
+    font-family: Microsoft JhengHei;
+}
+
+img
+{          
+height: auto; 
+max-width: 95%;      
+}
+
+header
+{
+    margin: 30px 0px 0px 0px;
+    text-align: center;
+    font-family: Microsoft JhengHei;
+}
+
+header h1
+{
+    font-size: 50px;
+    display: inline;
+    font-weight: bolder;
+    background: repeating-linear-gradient(90deg,MidnightBlue, RoyalBlue,lightblue 7.6923%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+header h3
+{
+    color: darkblue;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 1000;
+}
+
+header nav ul li a
+{
+    color: white;
+}
+
+header nav ul li:hover
+{
+    background-color: gold;
+}
+
+nav
+{
+    margin: 30px 0px 0px 0px;
+    font-size: 30px;
+    text-align: center;
+    background: linear-gradient(to bottom, darkblue, DarkSlateBlue);
+}
+
+#aside_left{
+    text-align: center;
+    background-color: Bisque;
+    border: 5px double Chocolate;
+}
+
+#aside_left h2
+{
+    text-decoration:underline;
+}
+
+article{
+    text-align: center;
+    background-color: Bisque;
+    border: 5px double Chocolate;
+}
+
+article h2
+{
+    text-decoration:underline;
+}
+
+article .Yeah
+{
+    color: red;
+    text-decoration:none;
+}
+
+footer{
+    text-align: center;
+    background-color: lightblue;
+}
+
+.center
+{
+    width: 80%;
+    margin: auto;
+}
+
+/* xs - Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px)
+{
+    li
+    {
+        display: none;
+    }
+    #aside_left
+    {
+        display: none;
+    }
+    #aside_right
+    {
+        display: none;
+    }
+}
+
+/* sm - Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px)
+{
+
+}
+
+/* md - Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px)
+{
+
+}
+
+/* lg - Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px)
+{
+    
+}
+
+/* xl - Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px)
+{
+    
+}

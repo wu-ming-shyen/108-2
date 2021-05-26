@@ -1,0 +1,63 @@
+.header
+{
+    height: 50px;
+    background-color: black;
+    position: relative;
+}
+
+.btn
+{
+    background-color: white;
+    display: block;
+    position: absolute;
+    top: 5px;
+    right: 10px;
+}
+
+nav
+{
+    width: 40%;
+    height: 100vh;
+    background-color: gray;
+    position: absolute;
+    top: 50px;
+    left: -100%;
+}
+
+nav a
+{
+    display: block;
+}
+
+#menu
+{
+    position: absolute;
+}
+
+#menu:checked ~ .header nav
+{
+    left: 0px;
+}
+
+
+
+@media screen and (mix-width:750px)
+{
+    .btn{display: none;}
+    .header
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    nav
+    {
+        position: relative;
+        left: 0px;
+        display: flex;
+        width: auto;
+        height: auto;
+        top: 0px;
+        background-color: transparent;
+    }
+}

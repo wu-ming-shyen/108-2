@@ -1,0 +1,51 @@
+table
+{
+    text-align: center;
+    border-spacing: 0px;
+    border:1px deepskyblue solid;
+}
+
+th
+{
+    background-color: deepskyblue;
+}
+
+.Td1
+{
+    background-color: white;
+}
+
+.Td2
+{
+    background-color: lightgray;
+}
+
+img
+{
+    width: 50px;
+    height: 50px;
+}
+
+@media(max-width:500px)
+{
+    th
+    {
+        display: none;
+    }
+    td
+    {
+        display: table;
+        padding: 0px;
+    }
+    td:before
+    {
+        content: attr(th);
+        width: 60px;
+        padding: 3px 10px;
+        color: white;
+        display: table-cell;
+        white-space: nowrap;
+        vertical-align: top;
+        background-color: deepskyblue;
+    }
+}

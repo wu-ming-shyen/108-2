@@ -1,0 +1,74 @@
+img
+{
+    vertical-align: bottom;
+}
+.Title
+{
+    text-align: center;
+    background-color: lightpink;
+}
+header
+{
+    background-color: lightskyblue;
+    position: relative;
+}
+main
+{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+footer
+{
+    text-align: center;
+    background-color: lightseagreen;
+}
+.Title_Image
+{
+    width: 100%;
+}
+section img
+{
+    width: 99%;
+}
+.Bottom
+{
+    position: absolute;
+    top: 5px;
+    right: 10px;
+}
+nav
+{
+    width: 40%;
+    height: 100vh;
+    background-color: lightskyblue;
+    position: absolute;
+    top: 50px;
+    left: -100%;
+}
+nav li
+{
+    display: block;
+    font-size: 30px;
+}
+#Menu
+{
+    position: absolute;
+}
+#Menu:checked ~ nav
+{
+    left: 0px;
+}
+
+
+@media screen and (min-width:700px)
+{
+    main
+    {
+        display: flex;
+    }
+    header
+    {
+        display: none;
+    }
+}

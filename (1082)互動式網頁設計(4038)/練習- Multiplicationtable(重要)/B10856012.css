@@ -1,0 +1,21 @@
+table
+{
+    border: 3px dashed green;
+    height: 300px;
+    width: 300px;
+}
+
+caption
+{
+    color: blue;
+    font-size: xx-large;
+}
+
+td
+{
+    border: 3px dotted red;
+    text-align: center;
+    font-weight: bold;
+    font-size: xx-large;
+    color: blue;
+}

@@ -1,0 +1,25 @@
+table
+{
+    border: 3px dotted red;
+}
+
+caption
+{
+    color: black;
+}
+
+td
+{
+    border: 3px dotted red;
+    text-align: center;
+}
+
+.red
+{
+    color: red;
+}
+
+.green
+{
+    color: green;
+}
